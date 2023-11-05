@@ -11,7 +11,6 @@ function selectionSortDescending(arr) {
     }
 
     if (maxIndex !== i) {
-      // Swap the elements
       const temp = arr[i];
       arr[i] = arr[maxIndex];
       arr[maxIndex] = temp;
@@ -23,4 +22,4 @@ const numbers = [5, 2, 9, 1, 5, 6];
 
 selectionSortDescending(numbers);
 
-console.log(numbers); // [9, 6, 5, 5, 2, 1]
+console.log(numbers);
